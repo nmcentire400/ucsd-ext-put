@@ -4,5 +4,6 @@ python:
   - "3.8"
   - "nightly"
 script:
+  - python -m doctest test_calc.py
   - pytest
   
